@@ -1,0 +1,7 @@
+Service is a fancy term for a useful object.
+
+Container is (basically) as associative array that holds service objects.
+
+// implementation, ask container for a service by an index and get the service object.
+$mapjs = $map_container->('map_renderer_js');
+$mapjs->doSomething();
